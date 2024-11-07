@@ -1,0 +1,57 @@
+.card{
+    max-width: 256px;
+    min-height: 350px;
+    padding: 14px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    & figure{
+        margin: 0;
+        & img{
+            width: 100%;
+            border-radius: 8px;
+            object-fit: cover;
+            height: 184px;
+        }
+    }
+
+    & h3{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    & p{
+        font-size: 14px;
+    }
+
+    & .info-product{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        & .stock{
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        & .price{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    & button{
+        width: 100%;
+        padding: 8px;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
