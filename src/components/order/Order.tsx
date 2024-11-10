@@ -1,6 +1,6 @@
 import './Order.css'
 
-export default function Order(){
+export default function Order(title, price, currency){
     return(
         <>
             <div className='order'>
@@ -8,8 +8,8 @@ export default function Order(){
                     <img src="./src/assets/coffee-one.avif" alt="Order" />
                 </figure>
                 <div className='info-product'>
-                    <h3>Capuccino</h3>
-                    <span className='price'>49.9 MXN</span>
+                    <h3>{title}</h3>
+                    <span className='price'>{price} {currency}</span>
                 </div>
             </div>
         </>

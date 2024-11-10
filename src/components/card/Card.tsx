@@ -10,6 +10,8 @@ export default function Card({title, description, stock, price, currency, imgUrl
             price,
             currency    
         ]
+
+        console.log("Add");
     }
     
     return(
